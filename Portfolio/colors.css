@@ -1,0 +1,276 @@
+:root {
+  --skin-color: #ec1839;
+}
+
+.bars-icon {
+  display: none; /* Initially hide the bars icon */
+}
+.show-aside {
+  display: block !important; /* Ensure the aside bar is displayed when the class is applied */
+}
+
+@media (max-width: 1024px) {
+  /* Adjust font size and spacing for elements within this range */
+  body {
+    font-size: 12px;
+  }
+  .aside .logo a{
+    font-size: 18px;
+    margin-top: 10%;
+  }
+  .hello{
+    margin-top: 20%;
+  }
+  .aside .logo a span{
+    font-size: 2rem;
+  }
+  /* Adjust spacing or layout for specific elements */
+  .section{
+    height: auto;
+  }
+  .aside .nav li button{
+    font-size: .8rem;
+  }
+  .home .home-img img{
+    width: 150px;
+  }
+  .home{
+    margin-top: 4%;
+  }
+  h3.hello {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  h3.hello span{
+    font-size: 40px;
+  }
+  .skill-container{
+    gap: 10px;
+  }
+  .skill p{
+    font-size: 13px;
+  }
+  .skill i{
+    font-size: 50px;
+  }
+  .skill-cert ul li{
+    font-size: .9rem;
+  }
+  footer{
+    font-size: 14px;
+  }
+  /* Adjust other styles as needed */
+}
+@media (max-width: 800px){
+  .aside {
+    display: none;
+    width: 30%;
+  }
+  .logo{
+    margin-top: 40%;
+    margin-bottom: 20%;
+  }
+  .bars-icon {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px 20px 0 10px;
+    font-size: 25px;
+    z-index: 1000; 
+  }
+  .main-content{
+    width: 100%;
+    margin: 0;
+    z-index: 3;
+  }
+  .container .hello{
+    margin-top: 0;
+  }
+  .home-info p{
+    font-size: 13px;
+  }
+  .degree ul li{
+    font-size: 16px;
+  }
+  .home{
+    margin-top: 5%;
+  }
+  .degree p {
+    font-size: 13px;
+  }
+  .section{
+    height: auto;
+  }
+  .skill-body{
+    flex-direction: column;
+  }
+  .skill-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .skill-cert{
+    width: 100%;
+  }
+  .skill i{
+    font-size: 3.5rem;
+  }
+  .input-1{
+    font-size: 13px;
+    height: auto;
+    padding: 13px 30px;
+    width: 80%;
+  }
+  .textarea{
+    font-size: 13px;
+    height: 110px;
+    width: 80%;
+  }
+  .skill-cert ul li {
+    font-size: 11px;
+  }
+  .skill-cert h2{
+    font-size: 17px;
+  }
+  .project-1 p, .project-2 p{
+    font-size: 12px;
+  }
+  .contact-form{
+    margin-bottom: 10%;
+  }
+  .addres {
+    margin-top: 10%;
+  }
+  .aside {
+    width: 50%;
+    background: transparent;
+    backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */  }
+  .mobile p{
+    word-wrap: break-word;
+  }
+  footer{
+    font-size: 12px;
+  }
+  .btn{
+    font-size: 13px;
+  }
+}
+@media (max-width:500px) {
+  .home, .education, .skills, .contact, .projects{
+    margin-top: 12%;
+    border-radius: 20px;
+  }
+  .container .hello{
+    margin-top: 3%;
+  }
+  .home-info p{
+    font-size: 11px;
+  }
+  .degree ul li{
+    font-size: 13px;
+  }
+  .degree p {
+    font-size: 11px;
+  }
+  .skill i{
+    font-size: 2rem;
+  }
+  .input-1{
+    font-size: 11px;
+    height: auto;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .textarea{
+    font-size: 11px;
+    height: 110px;
+    width: 100%;
+  }
+  .skill-cert ul li {
+    font-size: 13px;
+  }
+  .skill-cert h2{
+    font-size: 19px;
+  }
+  .project-1 p, .project-2 p{
+    font-size: 11px;
+  }
+  .mobile p{
+    word-wrap: break-word;
+    font-size: 8px;
+  }
+  .mobile i{
+    font-size: 14px;
+  }
+  .titile h2{
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .skill-cert ul li{
+    font-size: 11px;
+    word-wrap: break-word;
+  }
+  .social-link{
+    width: 100px;
+  }
+  .home-info p{
+    font-size: 11px;
+  }
+  .home-info {
+    /*position: relative;*/
+    z-index: 10;
+  }
+  .home .home-img img {
+    height: 150px;
+    width: fit-content;
+    z-index: 1;
+    opacity: .9;
+    border-radius: 90%;
+  }
+  footer{
+    font-size: 12px;
+  }    
+  .social-link{
+    width: 100%;
+  }
+  .row-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h3.my-profession{
+    font-size: .8rem;
+  }
+  h3.hello{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+  h3.hello span{
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .btn{
+    font-size: 11px;
+    padding: 8px 20px;
+  }
+  .home{
+    margin-top: 16%;
+  }
+  .nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0;
+  }
+}
