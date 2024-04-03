@@ -15,6 +15,7 @@
     background-image: url('../../../assets/snow.jpg');
     background-position: center;
     background-size: cover;
+    overflow: auto;
 }
 .overlay{
     width: 100%;
@@ -22,6 +23,7 @@
     background-color: var(--background-overlay);
     background-position: center;
     background-size: cover;
+    overflow: auto;
 }
 .container{
     max-width: 800px;

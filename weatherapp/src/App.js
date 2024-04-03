@@ -1,5 +1,4 @@
 import React from 'react'
-import WeatherApp from './Components/WeatherApp/WeatherApp'
 import Weather from './Components/WeatherApp/Weather'
 const App = () => {
   return (

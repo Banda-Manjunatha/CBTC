@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     animation: animation 0.3s ease-in;
+    height: inherit;
 }
 .card{
     display: flex;
