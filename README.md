@@ -4,7 +4,7 @@
 
 ### 1. Personal Portfolio
 
-[Personal Portfolio](https://manjunath-portfolio.netlify.app/)
+You can check out here : [Personal Portfolio Link](https://manjunath-portfolio.netlify.app/)
 
 During my internship, I developed a personal portfolio website using HTML, CSS, and JavaScript. The website is designed to showcase my education, projects, contact information, skills, and more.
 
