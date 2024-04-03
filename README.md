@@ -1,4 +1,4 @@
-# CBTC - Internship - Web Development
+# CBTCIP - Internship - Web Development
 
 ## Projects Overview
 
